@@ -106,7 +106,23 @@ a {
     text-align: center;
 }
 
+.derechos {
+    justify-content: left;
+}
 
+.contactos {
+    display: flex;
+    flex-direction: column;
+}
+.contacto-numero {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+.contacto-ubi {
+    justify-content: right;
+    align-items: start;
+}
 #footer {
     display: flex;
     margin-top: 4%;
