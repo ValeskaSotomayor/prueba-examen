@@ -10,6 +10,8 @@
 }
 
 .header {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -113,6 +115,8 @@ a {
 .contactos {
     display: flex;
     flex-direction: column;
+    justify-content: right;
+    align-items: start;
 }
 .contacto-numero {
     display: flex;
@@ -128,7 +132,7 @@ a {
     margin-top: 4%;
     background-color: gray;
     padding: 2.5rem;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 p.under-header{
